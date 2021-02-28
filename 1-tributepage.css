@@ -1,0 +1,43 @@
+    html {
+        color: white;
+        background: black;
+    }
+   .href {
+        color: greenyellow;
+    }
+    #img-div {
+     background: black;
+     text-align: center;}
+
+   #image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;}
+
+   .pagetitle {
+    display: block;
+    margin: 5px 5px 5px 5px; 
+     text-align: center;
+     text-size-adjust: 100%;
+   }
+
+   #abouttitle {
+       font-weight: bolder;
+   }
+
+    #title1 { 
+    color: black;
+     background-color: white;
+     margin-left: auto;
+    margin-right: auto;
+            }
+
+   #tribute-info {
+     text-align: center;
+   }
+
+   #facts {
+       text-align: left;
+   }
