@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+    <head>
+
+    </head>
+<main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <body>
+    <h1 id="title"> 
+        Join the Mailing List!
+    </h1>
+    <p id="description">
+        Keep up to date with the latest goods and become part of the STC Co. family !
+    </p>
+    <form id="survey-form"
+  action="https://formspree.io/f/mdoprgdv"
+  method="POST">
+  <label class="label" id="name-label">
+      Name:
+      <input placeholder="Fish Doggerman" class="forminput" id="name" type="text" name="Name" required>
+  </label>
+  <label class="label" id="email-label">
+    Email:
+    <input placeholder="dmanfish@waves.co" class="forminput" id="email" type="email" name="Contact" required>
+  </label>
+  <label class="label" id="number-label">
+      Age:
+      <input placeholder="24" class="forminput" id="number" type="number" max=160 min=10>
+  </label>
+  <label class="label" id="message-label">
+
+      <div id="checkboxes">
+            <p>
+              What is your favorite thing about STC Co.?
+            </p>      
+            <label>
+                <input name="favorite" value="the designs" type="checkbox" class="checkbox">The Designs
+            </label>
+            <label>
+              <input name="favorite" value="the style" type="checkbox" class="checkbox">
+            The Style
+            </label>
+            <label>
+                <input name="favorite" value="the soul" type="checkbox" class="checkbox">
+                The Soul</label>
+            <label><input name="favorite" value="everything!" type="checkbox" class="input-checkbox">
+                Everything, Dude!</label>
+                <label><input name="favorite" value="nothing" type="checkbox" class="input-checkbox">
+                    This Survey is Biased</label>
+      </div>
+
+      <div id="formradio">
+        <p>Would you reccomend STC Co. to a friend?</p>
+        <label>
+          <input name="recommend" value="Yes!" type="radio" class="radio" checked="">Yes!</label>
+        <label>
+          <input name="recommend" value="maybe" type="radio" class="radio">Maybe?</label>
+  
+        <label><input name="recommend" value="not sure" type="radio" class="radio">Not sure...</label>
+      </div>
+<br>
+      <div id="dropdowngroup">
+<label id="dropdown-label" >What do you want to see more of?</label>
+    <select id="dropdown" name="I want to see more" class="form-control" required>
+        <option id="ddplace" disabled selected value="">Let's see here...</option>
+        <option value="tshirts">T-Shirts</option>
+        <option value="hats">Hats</option>
+        <option value="stickers">Stickers</option>
+        <option value="cool random shit">Cool Random S#@%</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <br>
+    Message:
+    <textarea placeholder="Hi, how are you?" class="forminput" id="message" name="message" required></textarea>
+  </label>
+
+  <button type="submit" id="submit">Send</button>
+</form>
+
+    </body>
+</main>
