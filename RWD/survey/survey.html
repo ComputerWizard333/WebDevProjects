@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-
+<link rel="stylesheet" type="text/css" href="survey.css">
     <head>
-
+        <title>E-Commerce Survey Project</title>
     </head>
+
+
 <main>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <body>
-    <h1 id="title"> 
+    <header id="outofbox">
+    <h1 id="pagetitle"> 
         Join the Mailing List!
     </h1>
     <p id="description">
         Keep up to date with the latest goods and become part of the STC Co. family !
     </p>
+    </header>
+
+    <body>
+    <fieldset>
+    <div id="svform">
     <form id="survey-form"
   action="https://formspree.io/f/mdoprgdv"
   method="POST">
+  <br>
   <label class="label" id="name-label">
       Name:
       <input placeholder="Fish Doggerman" class="forminput" id="name" type="text" name="Name" required>
@@ -68,7 +76,7 @@
         <option value="tshirts">T-Shirts</option>
         <option value="hats">Hats</option>
         <option value="stickers">Stickers</option>
-        <option value="cool random shit">Cool Random S#@%</option>
+        <option value="cool random shit">Miscellaneous Crafts</option>
         <option value="other">Other</option>
       </select>
     </div>
@@ -78,7 +86,10 @@
   </label>
 
   <button type="submit" id="submit">Send</button>
+  <br>
 </form>
-
+</div>
+</fieldset>
     </body>
+
 </main>

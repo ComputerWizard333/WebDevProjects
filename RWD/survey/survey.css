@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    
+}
+
+#svform {
+
+    background-image: linear-gradient(rgb(80, 187, 219),rgb(77, 77, 247));
+}
+#pagetitle {
+
+}
+
+#description {
+font-weight: bold;
+font-size: 1.1em;
+
+}
+
+.label {
+   
+}
