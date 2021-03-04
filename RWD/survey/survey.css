@@ -25,6 +25,8 @@ header {
 body {
     text-align: center;
     font-family: Arial,Helvetica,sans-serif;
+    padding: auto;
+    margin: auto;
     
 }
 
@@ -110,7 +112,7 @@ textarea {
  #svform {
     border-radius: 6px;
      position: relative;
-    right: 3px;
+  
     /*background-image: linear-gradient(rgb(0, 174, 255),rgb(0, 74, 235));*/
 background-color: seashell;
     width: 360px;
