@@ -1,14 +1,60 @@
+main{
+    position: relative;
+    top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+header {
+    position: relative;
+    bottom: 10px;
+}
+
 body {
     text-align: center;
     font-family: Arial,Helvetica,sans-serif;
-    
+    Background-image: url(https://i.pinimg.com/originals/32/44/7e/32447e80862579ffd32acdd28186aeec.gif);
+    background-repeat: no-repeat;
+    background-size: 2000px 1500px;   
 }
-fieldset{
-    border-radius: 6px;
+
+#logo {
+    width: 125px;
+    length: 125px;
 }
+
+select, input, textarea {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(61, 145, 255);
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 16px;
+    left: 60px;
+}
+
+textarea {
+    width: 300px;
+    height: 40px;
+}
+
+
+#outofbox {
+    text-shadow: 2px 2px rgb(61, 145, 255);
+    font-weight: bold;
+    color: seashell;
+}
+
+
 #svform {
     border-radius: 6px;
-    background-image: linear-gradient(rgb(80, 187, 219),rgb(77, 77, 247));
+        /*background-image: linear-gradient(rgb(0, 174, 255),rgb(0, 74, 235));*/
+    background-color: seashell;
 }
 #pagetitle {
 
@@ -24,6 +70,44 @@ font-size: 1.1em;
     white-space: nowrap;
 }
 
-.label {
+.label1 {
+   display: block;
+   position: relative;
+   right: 2.9em;
+   color: seashell;
+}
+#number-label {
+    position: relative;
+    right: 3.3em;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+#message-label {
+    position: relative;
+    bottom: 2.2em;
    
+}
+
+#submit {
+    position: relative;
+    left: .5em;
+}
+
+ #svform {
+    width: 360px;
+  margin: auto;
+  
+  border: 15px solid rgb(61, 145, 255);
+  padding: 10px;
+  
+}
+
+#svform{
+padding-bottom: 30px;
 }
