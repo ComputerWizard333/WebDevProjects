@@ -2,7 +2,8 @@ main{
     position: relative;
     top: 50px;
     padding-bottom: 50px;
-    
+     max-width: 1920px;
+    max-height: 1080px;
 }
 
 header {
@@ -15,7 +16,7 @@ body {
     font-family: Arial,Helvetica,sans-serif;
     Background-image: url(https://i.pinimg.com/originals/32/44/7e/32447e80862579ffd32acdd28186aeec.gif);
     background-repeat: no-repeat;
-    background-size: 2000px 1500px;   
+    background-size: 1920px 1080px;   
 }
 
 #logo {
