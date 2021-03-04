@@ -111,7 +111,7 @@ textarea {
     /*background-image: linear-gradient(rgb(0, 174, 255),rgb(0, 74, 235));*/
 background-color: seashell;
     width: 360px;
-  margin: auto;
+  margin: 10px;
   border: 15px solid rgb(61, 145, 255);
   padding: 10px;
   padding-bottom: 30px;
