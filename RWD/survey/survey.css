@@ -2,7 +2,7 @@
     Background-image: url(https://i.pinimg.com/originals/32/44/7e/32447e80862579ffd32acdd28186aeec.gif);
     background-repeat: no-repeat;
     background-size: cover;
-/*border:  solid aquamarine;
+    /*border:  solid aquamarine;
 border-width: 10px;
 */
 }
@@ -10,8 +10,7 @@ border-width: 10px;
 main{
     padding-top: 50px;
     padding-bottom: 100px;
-    padding-left:   5px;
-    padding-right: 5px;
+   
 
 /*border:  solid aquamarine;
 border-width: 10px;
