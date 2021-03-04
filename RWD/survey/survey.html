@@ -9,36 +9,7 @@
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    
-    
-<div id="interactivedawg">
-    <img src="Weblogo1.svg" id="logo" data-state="play"/>
-<audio src="https://dl2.savemusic.me//mp3//b946a6062aa3724d980a4a0648645f1b.mp3" preload>
-    Your browser does not support the <code>audio</code> tag
-</audio>
-<script language="javascript" type="text/javascript">
-  document.querySelector("img").addEventListener("click", function(e){
-    var state = e.currentTarget.dataset.state;
-    if (state == "play") {
-        //play the gif aswell
-    	document.querySelector("audio").play();
-        e.currentTarget.dataset.state = "pause";
-    }
-    else {
-        //pause the gif aswell
-    	document.querySelector("audio").pause();
-        e.currentTarget.dataset.state = "play";
-    }	});
-</script>
-</div>
-    
-    
-    
-    
-    
-    
-    
-    
+    <img id="logo" src="Weblogo1.svg" >
     <header id="outofbox">
     <h1 id="title"> 
         Join the Mailing List!
