@@ -32,6 +32,7 @@ body {
 #logo {
     width: 125px;
     length: 125px;
+    margin: auto;
     /*-webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);*/
 }
@@ -62,6 +63,7 @@ textarea {
     text-shadow: 2px 2px rgb(61, 145, 255);
     font-weight: bold;
     color: seashell;
+    margin: auto;
     /*-webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);*/
 }
@@ -69,7 +71,7 @@ textarea {
 
 #description {
 font-weight: bold;
-font-size: 1.1em;
+
 
 }
 
