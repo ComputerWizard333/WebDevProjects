@@ -56,10 +56,6 @@ button{
     
 }
 
-textarea {
-    width: 300px;
-    height: 40px;
-}
 
 
 #outofbox {
@@ -94,6 +90,8 @@ font-weight: bold;
 }
 
 textarea {
+    width: 300px;
+    height: 40px;
     overflow: auto;
     resize: none;
     font-family: Arial,Helvetica,sans-serif;
@@ -127,6 +125,9 @@ background-color: seashell;
 
 }
 
+.forminput, .form-control {
+    width: 150px;
+}
 
 
 #dropdown-label {
